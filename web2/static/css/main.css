@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat.ttf") format("truetype");
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    display: flex;
+    justify-content: flex-end;
+    height: 100vh;
+    padding: 0px;
+}
+#leftbar {
+    height: 100vh;
+    width: auto;
+    background-color: black;
+    flex-grow: 1;
+
+}
+#menu {
+    width: auto;
+    height: 100vh;
+    
+
+}
+#field {
+    height: 100%;
+    width: auto;
+}
+#sidebar {
+    padding: 30px;
+    width: 35%;
+    
+
+    background-color: black;
+}
+.Title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: white;
+}
+th, td {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+table {
+    border: white;
+}
+#LeaderboardS {
+    overflow-y: scroll;
+    height: 20vh;
+    scrollbar-color: #2b2b2b #000000;
+}
