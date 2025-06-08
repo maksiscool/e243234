@@ -2,7 +2,9 @@
     font-family: "Montserrat";
     src: url("/static/fonts/Montserrat.ttf") format("truetype");
 }
-
+html {
+    overflow: hidden;
+}
 html, body {
     margin: 0px;
     padding: 0px;
